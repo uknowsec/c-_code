@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Renminbi - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Uknow\AppData\Local\Temp\RSPFC7B.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Renminbi.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"I:\c++实验\9.29\Renminbi\Renminbi.cpp"
+]
+Creating command line "cl.exe @C:\Users\Uknow\AppData\Local\Temp\RSPFC7B.tmp" 
+Creating temporary file "C:\Users\Uknow\AppData\Local\Temp\RSPFC7C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Renminbi.pdb" /debug /machine:I386 /out:"Debug/Renminbi.exe" /pdbtype:sept 
+".\Debug\main.obj"
+".\Debug\Renminbi.obj"
+]
+Creating command line "link.exe @C:\Users\Uknow\AppData\Local\Temp\RSPFC7C.tmp"
+<h3>Output Window</h3>
+Compiling...
+Renminbi.cpp
+I:\c++实验\9.29\Renminbi\Renminbi.cpp(8) : error C2065: 'cout' : undeclared identifier
+I:\c++实验\9.29\Renminbi\Renminbi.cpp(8) : error C2297: '<<' : illegal, right operand has type 'char [3]'
+I:\c++实验\9.29\Renminbi\Renminbi.cpp(8) : error C2065: 'endl' : undeclared identifier
+I:\c++实验\9.29\Renminbi\Renminbi.cpp(12) : error C2297: '<<' : illegal, right operand has type 'char [17]'
+I:\c++实验\9.29\Renminbi\Renminbi.cpp(13) : error C2065: 'cin' : undeclared identifier
+I:\c++实验\9.29\Renminbi\Renminbi.cpp(13) : warning C4552: '>>' : operator has no effect; expected operator with side-effect
+I:\c++实验\9.29\Renminbi\Renminbi.cpp(14) : warning C4552: '>>' : operator has no effect; expected operator with side-effect
+I:\c++实验\9.29\Renminbi\Renminbi.cpp(15) : warning C4552: '>>' : operator has no effect; expected operator with side-effect
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+Renminbi.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
